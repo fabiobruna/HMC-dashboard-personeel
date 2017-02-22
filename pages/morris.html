@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Fabio Bruna">
 
     <title>HMC - Dashboard personeel</title>
 
@@ -62,7 +62,10 @@
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Detailgrafieken<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="morris.html">Detail a</a>
+                                    <a href="morris.html">Contracttype dienstverband</a>
+                                </li>
+                                <li>
+                                    <a href="verzuim.html">Verzuim</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -83,7 +86,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Algemene grafieken</h1>
+                    <h1 class="page-header">Contracttype</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -92,7 +95,7 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Area Chart Example
+                            Contracttype lopende jaar
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -106,7 +109,7 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Bar Chart Example
+                            Contracttype eerdere jaren
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -120,7 +123,7 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Line Chart Example
+                            Contracttype huidige jaar
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -134,7 +137,7 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Donut Chart Example
+                            Contracttype lopende jaar
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -154,17 +157,23 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="../vendor/jquery/jquery.min.js"></script> -->
+    <script src="../vendor/jquery/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="../vendor/bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="../vendor/bootstrap/js/bootstrap.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
     <script src="../vendor/metisMenu/metisMenu.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="../vendor/raphael/raphael.min.js"></script>
-    <script src="../vendor/morrisjs/morris.min.js"></script>
+    <!-- <script src="../vendor/raphael/raphael.min.js"></script> -->
+    <!-- <script src="../vendor/morrisjs/morris.min.js"></script> -->
+
+    <script src="../vendor/raphael/raphael.js"></script>
+    <script src="../vendor/morrisjs/morris.js"></script>
+
     <script src="../data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
